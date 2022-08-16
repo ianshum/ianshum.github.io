@@ -2,6 +2,7 @@ title: Ian's Portfolio
 author:
   name: Ian
   email: ianshum98@gmail.com
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,13 +13,13 @@ minima:
   # generate social links in footer
   social_links:
     #twitter: jekyllrb
-    #github:  jekyll
+    github:  sphagetti-pigeon
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-     linkedin: Ian
+    linkedin: ian-shum
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g

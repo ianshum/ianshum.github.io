@@ -1,8 +1,9 @@
 ---
 layout: home
-title: About Me
+title: "" 
 ---
 
+# About Me
 
 Hi I am Ian! I am a self-taught game developer that has just recently started on game developing journey!
 
