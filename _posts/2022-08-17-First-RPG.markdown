@@ -5,111 +5,176 @@ categories: Game Posts
 author:
 - Ian
 meta: "FirstRPG"
-coverImage: "/assets/FirstRPG/coverImage.png"
+coverImage: "/assets/FirstRPG/CoverImage.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
-
-## Some great heading (h2)
-
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.
-
-Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-## Another great heading (h2)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
-
-### Some great subheading (h3)
-
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.
-
-Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
-
-### Some great subheading (h3)
-
-Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-> This quote will *change* your life. It will reveal the <i>secrets</i> of the universe, and all the wonders of humanity. Don't <em>misuse</em> it.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
-
-### Some great subheading (h3)
-
-Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.
-
-```html
-<html>
-  <head>
-  </head>
-  <body>
-    <p>Hello, World!</p>
-  </body>
-</html>
-```
+<img src="../../../../../assets/FirstRPG/MainMenu.gif" width="100%">
 
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+## Project Details
 
-#### You might want a sub-subheading (h4)
+---
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+Project Length: 1 month (July 2022 - Present)  
+Team Size: 1 (only myself)  
+Engines and tools: Unity, VS Code, Github  
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+## What is First RPG
 
-#### But it's probably overkill (h4)
+---
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+First RPG is a 2D pixel art styled action RPG game. Player can defeat mobs for levels and golds to buy various equipment and explore different sections of the map in the game.
 
-##### Could be a smaller sub-heading, `pacman` (h5)
+## Why do I take on this project
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+---
 
-###### Small yet significant sub-heading  (h6)
+As I am very interested in the game development industry for a long time (since I started my degree's freshman year), I decided to work on a personal project as a challenge, as well as provide me a chance at demonstrating my skills to get into a game development company. I was inspired by one of the Youtube video I found when I was self learning the game development process, so I decided to make a game similar to it as it has a very good potential for adding more features to it (which I added most of it in my game), and also provide me a very good opportunity to grow, in term of game design and development.
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+## Responsibilities
 
-### Oh hai, an unordered list!!
+---
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+As this is a personal project, I am in charged of every single aspect of the game.    
 
-- First item, yo
-- Second item, dawg
-- Third item, what what?!
-- Fourth item, fo sheezy my neezy
+I worked on the initial designs of the game, where I drafted out the most basic features I want to be included. I worked on the design document throughout the project to add or remove elements from the project before proceeding with the development.  
 
-### Oh hai, an ordered list!!
+I decided on the art assets I want to use in the project and created animations for them in the game.
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+I designed, created and enhanced the gameplay system of the game, by including experience system, combat system, equipment system and dialog system. I fine-tuned all the system throughout the project.  
 
-1. First item, yo
-2. Second item, dawg
-3. Third item, what what?!
-4. Fourth item, fo sheezy my neezy
+I developed the codes of the game and refactored them for optimisation and easier maintenance in the future.
 
+## Art Assets and Animations
 
+---
 
-## Headings are cool! (h2)
+All of the art assets are from different authors on [itch.io](https://itch.io/). I searched for suitable and consistent pixel art style to be used in my game, then I combined them and added some animations. I chose pixel arts as my main game design style as it is very simple and looks good at the same time. Below is some of the mobs that I included in the game:
 
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/idleMob10.png">
+            <img src="../../../../../assets/FirstRPG/idleMob10.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Small Mob</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/idleMob4.png">
+            <img src="../../../../../assets/FirstRPG/idleMob4.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Medium Mob</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/idleMob1.png">
+            <img src="../../../../../assets/FirstRPG/idleMob1.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Large Mob</span>
+    </div>
+</div>
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/BossDungeon.png">
+            <img src="../../../../../assets/FirstRPG/BossDungeon.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/BossEnchantedForest.png">
+            <img src="../../../../../assets/FirstRPG/BossEnchantedForest.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Boss Mobs</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/BossFantasy.png">
+            <img src="../../../../../assets/FirstRPG/BossFantasy.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+<div style="width: 100%; text-align: center; margin-bottom: 15px;">
+    <i>Click the image to open in full size</i>
+</div>
 
-Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+For the mobs, I added custom attack animations for each of them. Each animations are created based on the mob's attack speed and attack range (melee and ranged). Below is some of the animations I created: 
 
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs1.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs1.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs8.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs8.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Melee Attack Animations</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs9.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs9.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs2.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs2.gif" style="width: 200px; height: 100px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs4.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs4.gif" style="width: 200px; height: 100px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Ranged Attack Animations</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs7.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs7.gif" style="width: 200px; height: 100px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+<div style="width: 100%; text-align: center; margin-bottom: 15px;">
+    <i>Click the image to open in full size</i>
+</div>
 
-### Tables
+Aside from the mobs, I also created custom and unique attack animations for every weapon available in the game. Here are some of the weapon's attack animations:
 
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | --------------------- | --------------------- | ---------------------
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Attack3.gif">
+            <img src="../../../../../assets/FirstRPG/Attack3.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Attack4.gif">
+            <img src="../../../../../assets/FirstRPG/Attack4.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Melee Attack Animations</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Attack6.gif">
+            <img src="../../../../../assets/FirstRPG/Attack6.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Attack7.gif">
+            <img src="../../../../../assets/FirstRPG/Attack7.gif" style="width: 200px; height: 80px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Attack8.gif">
+            <img src="../../../../../assets/FirstRPG/Attack8.gif" style="width: 200px; height: 80px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Ranged Attack Animations</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Attack9.gif">
+            <img src="../../../../../assets/FirstRPG/Attack9.gif" style="width: 200px; height: 80px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+<div style="width: 100%; text-align: center; margin-bottom: 15px;">
+    <i>Click the image to open in full size</i>
+</div>
 
-
-Title 1 | Title 2 | Title 3 | Title 4
---- | --- | --- | ---
-lorem | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
-lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
-lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
-lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
+## Gameplay
