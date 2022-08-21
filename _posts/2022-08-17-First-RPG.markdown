@@ -364,7 +364,7 @@ More animations:
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
         <a target="_blank" href="../../../../../assets/FirstRPG/Attack5.gif">
-            <img src="../../../../../assets/FirstRPG/Attack4.gif" style="width: 200px; height: 200px; object-fit: cover;">
+            <img src="../../../../../assets/FirstRPG/Attack5.gif" style="width: 200px; height: 200px; object-fit: cover;">
         </a>
     </div>
 </div>
