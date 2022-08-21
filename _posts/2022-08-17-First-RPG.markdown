@@ -29,7 +29,7 @@ First RPG is a 2D pixel art styled action RPG game. Player can defeat mobs for l
 
 ---
 
-As I am very interested in the game development industry for a long time (since I started my degree's freshman year), I decided to work on a personal project as a challenge, as well as provide me a chance at demonstrating my skills to get into a game development company. I was inspired by one of the Youtube video I found when I was self learning the game development process, so I decided to make a game similar to it as it has a very good potential for adding more features to it (which I added most of it in my game), and also provide me a very good opportunity to grow, in term of game design and development.
+As I am very interested in the game development industry for a long time (since I started my degree's freshman year), I decided to work on a personal project as a challenge, as well as provide me a chance at demonstrating my skills to get into a game development company. I was inspired by one of the YouTube video I found when I was self-learning the game development process, so I decided to make a game similar to it as it has a very good potential for adding more features to it (which I added most of it in my game), and also provide me a very good opportunity to grow, in term of game design and development.
 
 ## Responsibilities
 
@@ -41,7 +41,7 @@ I worked on the initial designs of the game, where I drafted out the most basic 
 
 I decided on the art assets I want to use in the project and created animations for them in the game.
 
-I designed, created and enhanced the gameplay system of the game, by including experience system, combat system, equipment system and dialog system. I fine-tuned all the system throughout the project.  
+I designed, created, and enhanced the gameplay system of the game, by including experience system, combat system, equipment system and dialog system. I fine-tuned all the system throughout the project.  
 
 I developed the codes of the game and refactored them for optimisation and easier maintenance in the future.
 
@@ -49,7 +49,7 @@ I developed the codes of the game and refactored them for optimisation and easie
 
 ---
 
-All of the art assets are from different authors on [itch.io](https://itch.io/). I searched for suitable and consistent pixel art style to be used in my game, then I combined them and added some animations. I chose pixel arts as my main game design style as it is very simple and looks good at the same time. Below is some of the mobs that I included in the game:
+All the art assets are from different authors on [itch.io](https://itch.io/). I searched for suitable and consistent pixel art style to be used in my game, then I combined them and added some animations. I chose pixel arts as my main game design style as it is very simple and looks good at the same time. Below are some of the mobs that I included in the game:
 
 <div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
     <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
@@ -93,7 +93,7 @@ All of the art assets are from different authors on [itch.io](https://itch.io/).
     <i>Click the image to open in full size</i>
 </div>
 
-For the mobs, I added custom attack animations for each of them. Each animations are created based on the mob's attack speed and attack range (melee and ranged). Below is some of the animations I created: 
+For the mobs, I added custom attack animations for each of them. Each animation is created based on the mob's attack speed and attack range (melee and ranged). Below is some of the animations I created: 
 
 <div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
     <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
@@ -178,3 +178,245 @@ Aside from the mobs, I also created custom and unique attack animations for ever
 </div>
 
 ## Gameplay
+
+---
+
+I created a player menu which allow the player to see the level, level progression, last saved time, gold, current health points and max health points. Player can also equip/unequip equipment through the inventory by clicking on the equipment. Once the equipment is equipped/unequipped, the overall Armor stat and Weapon stat will be displayed on the stat sections. 
+
+
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center;" width="100%">
+        <img src="../../../../../assets/FirstRPG/PlayerMenu.gif" width="100%">
+        <span style="margin-top: 10px;">Player Menu Interaction</span>
+    </div>
+</div>
+
+Besides, player can also save the game progression or return to main menu through the player menu. Upgrading inventory level to unlock more slots can also be done in the player menu.  
+
+As for the equipment, there are several types of equipment available in this game. Player can equip Head Armor, Chest Armor and Boots Armor for armor points which will help in reducing damage dealt to them, and buffs which will help in negating debuffs from mobs.  
+
+Player can choose different type of weapon with different damage points and debuffs which will help them in exploring and adventuring. There is also different type of potions which can provide different types and levels of buffs such as Healing, Strength and Speed which can help in defeating mobs. 
+
+I planned 3 different main area in this game: Dungeon, Enchanted Forest, and Fantasy. Each area has their own central hub, which is a safe zone and marketplace, and provides access to their own adventure site for exploration. In the central hubs, there are shops that sell unique Armor, Weapon and Potion. Player can purchase or sell equipment through the shop menu. Below is some of the shop I created:
+
+<div style="display: flex; justify-content: center; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/ArmorShop1.png">
+            <img src="../../../../../assets/FirstRPG/ArmorShop1.png" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Armor Shop</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/WeaponShop1.png">
+            <img src="../../../../../assets/FirstRPG/WeaponShop1.png" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Weapon Shop</span>
+    </div>
+</div>
+<div style="display: flex; justify-content: center; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/PotionShop1.png">
+            <img src="../../../../../assets/FirstRPG/PotionShop1.png" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Potion Shop</span>
+    </div>
+</div>
+<div style="width: 100%; text-align: center; margin-bottom: 15px;">
+    <i>Click the image to open in full size</i>
+</div>
+
+The combat system in this game involves attack speed, attack range, damage dealing with armor reductions and negative debuffs that apply secondary effects such as dealing Damage Over Time for a fixed duration.  
+
+I designed all the mobs to have a trigger length where the mobs will start to chase the player when the player gets in range, and the mobs will chase the player for a distance before stopping. They also have different stats and debuffs on attack so that player can equip different type of Armor equipment or use different type of Potions to have a better chance of surviving. Player may choose different type of Weapon to tackle different mobs as mobs have buffs that may reduce the effectiveness of debuffs from player's weapon.  
+
+In adventure sites, there are 2 type of fountains that provides different amount of heal to the player. Below show the Damage Over Time effect and Healing effect from fountains:
+
+
+<div style="display: flex; justify-content: center; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/DamageOverTime.gif">
+            <img src="../../../../../assets/FirstRPG/DamageOverTime.gif" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Damage Over Time</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Heal.gif">
+            <img src="../../../../../assets/FirstRPG/Heal.gif" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Healing Fountain</span>
+    </div>
+</div>
+<div style="width: 100%; text-align: center; margin-bottom: 15px;">
+    <i>Click the image to open in full size</i>
+</div>
+
+## Challenges
+
+---
+
+The most challenging part when developing this game was the balancing of the experience system, gold system, equipment system and combat system. All of them are interrelated in a way such that experience that acts as the requirement check should be reasonably challenging, with the suitable amount of gold dropping from defeating mobs to buy equipment which are not too overpowered at the player's current level. Constant checks on the mobs designs and weapon designs (combat stats) needed to be done to ensure the mobs and player are scaled appropriately without them over scaling one another.  
+
+I also encounter challenges when developing the equipment system, especially the potions as Potion is a special equipment which has a maximum amount that can be equipped and actively use during adventure. Applying the effect was not difficult but the synchronisation between the active inventory and the non-active inventory during equip/unequip and using them was an interesting task. 
+
+## Future Plans
+
+---
+
+Currently, this game is playable but there are more updates that I wanted to include, such as a Quest System, more level designs with detailed map level, mobs' locations and loots, and more animations across the game. I will be constantly working on the items and continue to provide update whenever possible!
+
+
+## Want more information on the technical side?
+
+---
+
+You can check my [GitHub repository](https://github.com/ianshum/P_01_Pixel_TopDown_RPG) for more technical information! You can find the source codes, stats document of the game involving experience, equipment, buffs, debuffs and mobs, and the reference links to the resources that helped me in developing this project! You can also contact me via my email. My email can be found at the page's footer. 
+
+## Gallery
+
+---
+
+More in-game mobs:
+
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/IdleMob2.png">
+            <img src="../../../../../assets/FirstRPG/IdleMob2.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/IdleMob3.png">
+            <img src="../../../../../assets/FirstRPG/IdleMob3.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/IdleMob5.png">
+            <img src="../../../../../assets/FirstRPG/IdleMob5.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/IdleMob7.png">
+            <img src="../../../../../assets/FirstRPG/IdleMob7.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/IdleMob9.png">
+            <img src="../../../../../assets/FirstRPG/IdleMob9.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/IdleMob11.png">
+            <img src="../../../../../assets/FirstRPG/IdleMob11.png" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+<div style="width: 100%; text-align: center; margin-bottom: 15px;">
+    <i>Click the image to open in full size</i>
+</div>
+
+More animations:
+
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs3.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs3.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs5.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs5.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs6.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs6.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px; align-items: center;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs10.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs10.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs11.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs11.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Mobs12.gif">
+            <img src="../../../../../assets/FirstRPG/Mobs12.gif" style="width: 200px; height: 100px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+<div style="display: flex; justify-content: space-around; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Attack1.gif">
+            <img src="../../../../../assets/FirstRPG/Attack1.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Attack2.gif">
+            <img src="../../../../../assets/FirstRPG/Attack2.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Attack5.gif">
+            <img src="../../../../../assets/FirstRPG/Attack4.gif" style="width: 200px; height: 200px; object-fit: cover;">
+        </a>
+    </div>
+</div>
+
+<div style="width: 100%; text-align: center; margin-bottom: 15px;">
+    <i>Click the image to open in full size</i>
+</div>
+
+More gameplay:
+
+<div style="display: flex; justify-content: center; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/CharacterCreation1.png">
+            <img src="../../../../../assets/FirstRPG/CharacterCreation1.png" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Character Creation - Gender</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/CharacterCreation2.png">
+            <img src="../../../../../assets/FirstRPG/CharacterCreation2.png" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Character Creation - Name</span>
+    </div>
+</div>
+<div style="display: flex; justify-content: center; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/StartingScene1.png">
+            <img src="../../../../../assets/FirstRPG/StartingScene1.png" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Introductory</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Interaction.gif">
+            <img src="../../../../../assets/FirstRPG/Interaction.gif" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Interacting with NPCs</span>
+    </div>
+</div>
+<div style="display: flex; justify-content: center; margin-bottom: 15px;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/SafeRoom1.png">
+            <img src="../../../../../assets/FirstRPG/SafeRoom1.png" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Adventure Site - Safe Room</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+        <a target="_blank" href="../../../../../assets/FirstRPG/Dungeon1.gif">
+            <img src="../../../../../assets/FirstRPG/Dungeon1.gif" style="width: 350px; height: 260px; object-fit: cover;">
+        </a>
+        <span style="margin-top: 10px;">Adventure Site - Mobs</span>
+    </div>
+</div>
+<div style="width: 100%; text-align: center; margin-bottom: 15px;">
+    <i>Click the image to open in full size</i>
+</div>
