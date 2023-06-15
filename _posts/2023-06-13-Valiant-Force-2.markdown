@@ -234,11 +234,11 @@ I revamped the looks of the first time purchase panel by adjusted the background
     <i>Click the image to open in full size</i>
 </div>
 
-### Gear Armory Quick Access (QOL)
+### Gear Armory Panel Quick Access to Gears (QOL)
 
 ---
 
-I incorporated a new tab in the gear armory to enable players to quickly access the missions that has the gears as drop loots.
+I incorporated a new tab in the gear armory panel to enable players to quickly access the missions that has the gears as drop loots.
 
 <div style="display: flex; justify-content: center; margin-bottom: 15px;">
     <div style="display: flex; flex-direction: column; align-items: center; width: 50%; margin: 5px;">
@@ -256,7 +256,7 @@ I incorporated a new tab in the gear armory to enable players to quickly access 
 
 ---
 
-I reintroduced the rarity and rarity tier in the auto select option panel and modified the rarity options to be populated dynamically depending on the rarities available in the game, instead of hard coded options. Furthermore, I improved the functionality to save the player's preference for the auto select option by restructing the logics. I also added logics to exclude locked and equipped gears when auto selecting gears for sell mode. 
+I reintroduced the rarity and rarity tier in the auto select option panel and modified the rarity options to be populated dynamically depending on the rarities available in the game, instead of hard coded options. Furthermore, I improved the functionality to save the player's preferences for the auto select option by restructuring the logics. I also added logics to exclude locked and equipped gears when auto selecting gears for sell mode. 
 
 <div style="display: flex; justify-content: center; margin-bottom: 15px;">
     <div style="display: flex; flex-direction: column; align-items: center; width: 50%; margin: 5px;">
