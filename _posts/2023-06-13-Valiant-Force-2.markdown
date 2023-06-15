@@ -36,7 +36,7 @@ You can find more information from the official website mentioned in the first s
 
 ---
 
-Being a junior software engineer in the team, I was assigned to some light task at the early stage. For instance, I was mainly tasked to work on some user interface updates in the Unity Edtior, while also getting used to the existing code structure of the project and coding practices of the team. As I gained more knowledge on the workflow, I started to work on different game features, including new game features and quality of life (QOL) updates. Listed below are some of the features I worked on.
+Being a junior software engineer in the team, I was assigned to some light task at the early stage. For instance, I was mainly tasked to work on some user interface updates in the Unity Editor, while also getting used to the existing code structure of the project and coding practices of the team. As I gained more knowledge on the workflow, I started to work on different game features, including new game features and quality of life (QOL) updates. Listed below are some of the features I worked on.
 
 ### Frame System
 
@@ -168,7 +168,7 @@ I implemented the logic to calculate and display a gem consumption breakdown con
 
 ---
 
-Since the game is a strategy game, players can build up to 5 different squads when they are playing the game. The squad built by players can have different battle power, depending on the heroes (level, equipments) and the mana cards (level) in the squad. Then, the playerS can use the squad they built to tackle the story missions of the game. 
+Since the game is a strategy game, players can build up to 5 different squads when they are playing the game. The squad built by players can have different battle power, depending on the heroes (level, equipments) and the mana cards (level) in the squad. Then, the players can use the squad they built to tackle the story missions of the game. 
 
 I added the battle power requirement for the mission, allowing the data to control the minimum requirement before a mission can be started. I refactored the existing battle power calculation functions across different places into a universally usable function for calculation consistency, as well as created the functionality to save the highest squad battle power history for unlocking the missions. Additionally, I implemented the quick access to the squad edit panel when the player tries to play a mission while not meeting the requirement.
 
@@ -269,3 +269,13 @@ I reintroduced the rarity and rarity tier in the auto select option panel and mo
 <div style="width: 100%; text-align: center; margin-bottom: 15px;">
     <i>Click the image to open in full size</i>
 </div>
+
+## Key Takeaways
+
+---
+
+As I worked on the features, I learnt that as a game developer, I have to always communicate with the game designer and artist. Not all the specification given by the game designer and artist are 100% accurate and can be followed blindly. Technical viability and existing game structure plays an important part in the development. 
+
+Besides, I should always keep the related parties updated on the features I developed, as this will help them to identify the changes they needed to do on their end, or identify any roadblocks. By being transparent, it helps to reduce any human errors such as data input errors or misconception on the flow. 
+
+On the technical side, I should always keep the code base clean and readable. This will improve the efficiency during debug, as well as during future feature updates, whether it is by myself or my team mates. As I often create pull request on the features I did for my seniors to review, slowly I gained a lot fo useful insights in structuring my codes, reducing redundancy, and constructing better logics. 
