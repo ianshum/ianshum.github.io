@@ -10,14 +10,18 @@ coverImage: "/assets/FirstRPG/CoverImage.png"
 
 <img src="../../../../../assets/FirstRPG/MainMenu.gif" width="100%">
 
+<br/>
 
 ## Project Details
 
 ---
 
-Project Length: 1 month (July 2022 - Present)  
+Project Length: 4 month (July 2022 - October 2022)  
 Team Size: 1 (only myself)  
-Engines and tools: Unity, VS Code, Github  
+Programming Language: C#    
+Engines and tools: Unity, VS Code, GitHub
+
+<br/>
 
 ## What is First RPG
 
@@ -25,11 +29,15 @@ Engines and tools: Unity, VS Code, Github
 
 First RPG is a 2D pixel art styled action RPG game. Player can defeat mobs for levels and golds to buy various equipment and explore different sections of the map in the game.
 
+<br/>
+
 ## Why do I take on this project
 
 ---
 
 As I am very interested in the game development industry for a long time (since I started my degree's freshman year), I decided to work on a personal project as a challenge, as well as provide me a chance at demonstrating my skills to get into a game development company. I was inspired by one of the YouTube video I found when I was self-learning the game development process, so I decided to make a game similar to it as it has a very good potential for adding more features to it (which I added most of it in my game), and also provide me a very good opportunity to grow, in term of game design and development.
+
+<br/>
 
 ## Responsibilities
 
@@ -44,6 +52,8 @@ I decided on the art assets I want to use in the project and created animations 
 I designed, created, and enhanced the gameplay system of the game, by including experience system, combat system, equipment system and dialog system. I fine-tuned all the system throughout the project.  
 
 I developed the codes of the game and refactored them for optimisation and easier maintenance in the future.
+
+<br/>
 
 ## Art Assets and Animations
 
@@ -177,6 +187,8 @@ Aside from the mobs, I also created custom and unique attack animations for ever
     <i>Click the image to open in full size</i>
 </div>
 
+<br/>
+
 ## Gameplay
 
 ---
@@ -250,6 +262,8 @@ In adventure sites, there are 2 type of fountains that provides different amount
     <i>Click the image to open in full size</i>
 </div>
 
+<br/>
+
 ## Challenges
 
 ---
@@ -258,18 +272,25 @@ The most challenging part when developing this game was the balancing of the exp
 
 I also encounter challenges when developing the equipment system, especially the potions as Potion is a special equipment which has a maximum amount that can be equipped and actively use during adventure. Applying the effect was not difficult but the synchronisation between the active inventory and the non-active inventory during equip/unequip and using them was an interesting task. 
 
+<br/>
+
 ## Future Plans
 
 ---
 
-Currently, this game is playable but there are more updates that I wanted to include, such as a Quest System, more level designs with detailed map level, mobs' locations and loots, and more animations across the game. I will be constantly working on the items and continue to provide update whenever possible!
+Currently, this game is playable but there are more updates that I wanted to include, such as a Quest System, more level designs with detailed map level, mobs' locations and loots, and more animations across the game. Moreover, I wish to add in database support for the game data as the current setup is all manual work when I am doing game balancing.
 
+I will be constantly working on the items and continue to provide update whenever possible!
+
+<br/>
 
 ## Want more information on the technical side?
 
 ---
 
 You can check my [GitHub repository](https://github.com/ianshum/P_01_Pixel_TopDown_RPG) for more technical information! You can find the source codes, stats document of the game involving experience, equipment, buffs, debuffs and mobs, and the reference links to the resources that helped me in developing this project! You can also contact me via my email. My email can be found at the page's footer. 
+
+<br/>
 
 ## Gallery
 
